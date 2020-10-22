@@ -3,7 +3,9 @@
 
 // Write a Function to return compute the doundof selling price.
 function find_SellingPrice(a,b){
+    let sp = 0;
+    sp = Math.round(((100-b)/100)*a);
     
-    return null;
+    return sp;
 }
 //Use SpecRunner to check the Test Cases.
